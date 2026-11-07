@@ -82,6 +82,46 @@ update/security/on-call burden.
 - Licensed business name on the site: "Anchorman Handy Man Services LLC" vs
   the shorter "Anchorman Handyman" styling in the logo.
 
+## Draft reply for mom (NOT SENT — Sean reviews/sends when ready)
+
+Plain-English answers back to her questionnaire plus the outstanding asks.
+Numbered like her doc so it's easy to respond point-by-point:
+
+```
+Got the answers — that helps a lot. A few things back:
+
+1. Facebook page: yes I can help set that up. One thing though — the
+   password in the doc is short and it was sent over email/text in
+   plaintext, so once we're in he should change it to something longer.
+   Also, a Facebook business page has to be owned by a personal account:
+   easiest is I create it under mine and add David as admin once he has
+   a Facebook login, or I walk him through making his own.
+
+2. Google Maps: I'll get him set up on Google Business Profile — that's
+   honestly the bigger win for a handyman, it's where the calls come
+   from. Google will need to verify him at his phone/address, so he'll
+   need to be involved for one step; I'll prep everything else.
+
+3. Domain: still need a yes/no — does he want something like
+   anchormanhandyman.com or davidshandyman.com (~$12/year), or is a free
+   web address fine for now?
+
+4. Cost: no monthly cost — the site itself will run free. Only possible
+   charge would be the ~$12/year domain if he wants one.
+
+5. Text preferred — got it, and the "text me photos for a ballpark"
+   workflow will be the main button on the site. That's a great hook.
+
+6. Photos: whenever the old-phone ones are recovered, send them my way
+   (or a shared folder). More real job photos = better site.
+
+Two more quick things to ask him:
+- Can the site say "licensed & insured"? Only if it's actually true —
+  Florida is picky about handyman claims, so I won't print it otherwise.
+- What's his actual services list? (drywall, fixtures, fence, paint,
+  TV mounting…?) The logo looks drywall-ish but I don't want to guess.
+```
+
 ## Sensitive-data note
 
 `assets/source-docs/` contains David's contact card and a document with a
