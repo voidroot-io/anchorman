@@ -43,6 +43,21 @@ site is a small brochure site, not a product.
 4. **David edits it himself** — or realistically, rarely enough that Sean
    doing it is also fine. Self-edit path should still exist.
 
+## Live preview (2026-11-07)
+
+Site is live at **https://voidroot-io.github.io/anchorman/** — GitHub Pages,
+repo `voidroot-io/anchorman` flipped **public** to enable it (revert to
+private if it moves to Cloudflare). Push to `main` = auto-deploy. `_headers`
+is Cloudflare-specific and ignored by Pages; og:image URL is hardcoded to the
+Pages host — update both if the host/domain changes.
+
+Derived logo assets (generated, regenerate from `assets/logo.png` if a better
+source arrives): `logo-emblem.png` (roundel crop, white bg flood-filled to
+transparent — reads as white-line art on navy), `logo-lockup.png` (full
+transparent lockup — navy wordmark, unusable on dark), `favicon.png`,
+`og.png`. Self-hosted Oswald variable font in `assets/fonts/` sets the
+live-text wordmark.
+
 ## Stack (decided 2026-11-07)
 
 **Plain HTML/CSS single-page site — no build step, no dependencies.**
@@ -90,6 +105,10 @@ Rejected: WordPress (on-call/security burden for 4 static pages), Carrd
 - Photos: ETA on recovered old-phone photos; any reviews/testimonials to quote?
 - Licensed business name on the site: "Anchorman Handy Man Services LLC" vs
   the shorter "Anchorman Handyman" styling in the logo.
+- Logo source: who made it, and is there a vector/higher-res original
+  (AI/EPS/SVG/PDF, or a bigger PNG)? The 792px raster is the only source; it
+  looks AI/clip-art shaded. Current site works around it (emblem crop on
+  navy, live-text wordmark), but a real source file would sharpen everything.
 
 ## Draft reply for mom (NOT SENT — Sean reviews/sends when ready)
 
