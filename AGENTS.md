@@ -4,14 +4,13 @@ Small static brochure site for a solo handyman (David Evans, Tampa Bay).
 Personal project — not related to Inkkeeper/voidroot repos. Read `context.md`
 for the business brief, decisions made, and open questions.
 
-## Stack intent
+## Stack (chosen 2026-11-07)
 
-Static-first and dependency-light by design: this site must survive every
-tool on it dying. Content lives as plain files in git; the generated output
-is plain HTML/CSS — any host can serve it, any editor can replace another.
-Pick boring, old, widely-used tools over exciting new ones. Target hosting is
-a free static tier (Cloudflare Pages / GitHub Pages). Update `context.md` and
-this file when the stack is chosen.
+Plain HTML/CSS, no build step, no dependencies: `index.html` (single page,
+anchored sections) + `styles.css` + `_headers` (Cloudflare Pages headers).
+`assets/logo.png` is the favicon. Serve the repo root — `file://` or any
+static host works. Target hosting is Cloudflare Pages connected to the
+private GitHub repo. Rationale and rejected options live in `context.md`.
 
 ## Before changing UI
 

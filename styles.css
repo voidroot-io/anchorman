@@ -1,0 +1,272 @@
+/* Anchorman Handyman Services — navy/gray palette from assets/logo.png */
+
+:root {
+  --navy: #00182d;
+  --navy-soft: #0d2c4d;
+  --ink: #1c2733;
+  --gray: #5b6470;
+  --line: #dde3e8;
+  --paper: #ffffff;
+  --wash: #f4f6f8;
+  --radius: 10px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.55;
+}
+
+/* Header */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  color: var(--navy);
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+}
+
+.brand img { display: block; }
+
+/* Buttons */
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.15rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  border: 2px solid var(--navy);
+}
+
+.btn-primary {
+  background: var(--navy);
+  color: #fff;
+}
+
+.btn-primary:hover { background: var(--navy-soft); border-color: var(--navy-soft); }
+
+.btn-ghost {
+  background: transparent;
+  color: var(--navy);
+}
+
+.btn-ghost:hover { background: var(--wash); }
+
+.btn-big { font-size: 1.05rem; padding: 0.9rem 1.4rem; }
+
+/* Hero */
+
+.hero {
+  text-align: center;
+  padding: 2.5rem 1.25rem 3rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.hero-logo { width: 180px; height: auto; }
+
+.hero h1 {
+  color: var(--navy);
+  font-size: 1.9rem;
+  line-height: 1.15;
+  margin: 0.75rem 0 0.25rem;
+}
+
+.tagline {
+  color: var(--gray);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  margin: 0 0 0.75rem;
+}
+
+.area { color: var(--ink); margin: 0 0 1.5rem; }
+
+.cta-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: stretch;
+  max-width: 26rem;
+  margin: 0 auto;
+}
+
+.cta-note {
+  color: var(--gray);
+  font-size: 0.95rem;
+  margin-top: 1.25rem;
+}
+
+/* Sections */
+
+.section {
+  padding: 2.75rem 1.25rem;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.section h2 {
+  color: var(--navy);
+  font-size: 1.5rem;
+  margin: 0 0 0.4rem;
+}
+
+.section-lead { color: var(--gray); margin-top: 0; }
+
+/* Services */
+
+.service-grid {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+.service-grid li {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1rem 1.1rem;
+  background: var(--paper);
+}
+
+.service-grid h3 {
+  color: var(--navy);
+  font-size: 1.02rem;
+  margin: 0 0 0.3rem;
+}
+
+.service-grid p { margin: 0; color: var(--gray); font-size: 0.95rem; }
+
+/* Work gallery (hidden until photos arrive) */
+
+.work-grid {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+.work-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+}
+
+/* About */
+
+.about-copy { max-width: 42rem; }
+.about-copy p { margin: 0 0 1rem; }
+
+/* Contact */
+
+.section-contact {
+  background: var(--wash);
+  max-width: none;
+}
+
+.section-contact > * {
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  margin-top: 1.5rem;
+}
+
+.contact-card {
+  display: block;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.25rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.contact-card:hover { border-color: var(--navy); }
+
+.contact-label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--gray);
+  margin-bottom: 0.25rem;
+}
+
+.contact-value {
+  display: block;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--navy);
+  overflow-wrap: anywhere;
+}
+
+.contact-value-email { font-size: 0.875rem; }
+
+.service-area { margin-top: 1.75rem; color: var(--ink); }
+
+/* Footer */
+
+.site-footer {
+  background: var(--navy);
+  color: #c8d4df;
+  text-align: center;
+  padding: 1.75rem 1.25rem;
+  font-size: 0.9rem;
+}
+
+.site-footer p { margin: 0.15rem 0; }
+
+/* Desktop */
+
+@media (min-width: 640px) {
+  .cta-row { flex-direction: row; justify-content: center; }
+  .service-grid { grid-template-columns: 1fr 1fr; }
+  .work-grid { grid-template-columns: 1fr 1fr; }
+  .contact-grid { grid-template-columns: 1fr 1fr; }
+  .contact-card:last-child { grid-column: 1 / -1; }
+}
+
+@media (min-width: 900px) {
+  .service-grid { grid-template-columns: repeat(4, 1fr); }
+  .work-grid { grid-template-columns: repeat(3, 1fr); }
+  .contact-grid { grid-template-columns: repeat(3, 1fr); }
+  .contact-card:last-child { grid-column: auto; }
+}

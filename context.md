@@ -43,18 +43,27 @@ site is a small brochure site, not a product.
 4. **David edits it himself** — or realistically, rarely enough that Sean
    doing it is also fine. Self-edit path should still exist.
 
-## Stack recommendation (from prior research — validate before building)
+## Stack (decided 2026-11-07)
 
-**Recommended: static site (Astro or plain HTML) + free hosting + optional
-Pages CMS for self-editing.** Repo in git, deploy to Cloudflare Pages or
-GitHub Pages — $0/mo. Pages CMS (app.pagescms.org, free, MIT, GitHub-login)
-gives him a browser editor with no backend to run; Sveltia CMS is the
-alternative if he edits at /admin (needs a one-time Cloudflare Workers OAuth
-app, also free).
+**Plain HTML/CSS single-page site — no build step, no dependencies.**
+`index.html` + `styles.css` + `_headers` (Cloudflare Pages security headers);
+`assets/logo.png` doubles as favicon. Chosen over Astro/SSGs: the site is one
+page, updates are rare, and zero dependencies is the extreme of the
+"survive every tool dying" requirement. Revisit only if it grows past one
+page or David really will self-edit.
 
-Runner-up if he'd rather have a hosted editor: **Carrd Pro ~$19/yr**.
-**WordPress ruled out**: 4 pages updated rarely doesn't justify the
-update/security/on-call burden.
+**Hosting target: Cloudflare Pages** (git-connected, $0/mo). Repo lives on
+GitHub under Sean's account (private) — backup + push-to-deploy + keeps the
+Pages CMS self-edit path open (Pages CMS is GitHub-login). GitHub Pages is
+the equally-valid fallback host. No domain yet — build is host-agnostic.
+
+Single page with anchored sections: header (sticky "Text me"), hero,
+services, photos (marked up, commented out until real photos arrive), about,
+contact, footer. Primary CTA is `sms:` with prefilled body. JSON-LD
+`HomeAndConstructionBusiness` for local SEO.
+
+Rejected: WordPress (on-call/security burden for 4 static pages), Carrd
+($19/yr + content not in git), Astro/SSG (unneeded machinery at this scale).
 
 ## Non-site work items (manual, for Sean/David — the session can't do these)
 
