@@ -5,7 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Anchorman Handyman Services — Tampa Bay Handyman</title>
 <meta name="description" content="Handyman serving Tampa, St. Petersburg, Clearwater and surrounding areas. Text photos of your job for a ballpark quote.">
-<link rel="icon" type="image/png" href="assets/logo.png">
+<meta property="og:title" content="Anchorman Handyman Services — Tampa Bay Handyman">
+<meta property="og:description" content="Text photos of your job for a ballpark quote. Serving Tampa, St. Petersburg, Clearwater and surrounding areas.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://voidroot-io.github.io/anchorman/assets/og.png">
+<meta property="og:url" content="https://voidroot-io.github.io/anchorman/">
+<meta name="theme-color" content="#00182d">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/favicon.png">
+<link rel="preload" href="assets/fonts/oswald-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="styles.css">
 <script type="application/ld+json">
 {
@@ -27,28 +35,33 @@
 
 <header class="site-header">
   <a class="brand" href="#top">
-    <img src="assets/logo.png" alt="" width="44" height="43">
-    <span>Anchorman Handyman Services</span>
+    <img src="assets/logo-emblem.png" alt="" width="38" height="38">
+    <span class="brand-text">
+      <span class="brand-name">Anchorman</span>
+      <span class="brand-sub">Handyman Services</span>
+    </span>
   </a>
-  <a class="btn btn-primary" href="sms:+18133840975?&body=Hi%20David!%20I%27m%20in%20the%20Tampa%20Bay%20area%20and%20need%20help%20with%3A%20">Text me</a>
+  <a class="btn btn-brass" href="sms:+18133840975?&body=Hi%20David!%20I%27m%20in%20the%20Tampa%20Bay%20area%20and%20need%20help%20with%3A%20">Text me</a>
 </header>
 
 <main id="top">
 
   <section class="hero">
-    <img class="hero-logo" src="assets/logo.png" alt="Anchorman Handyman Services logo" width="200" height="196">
-    <h1>Anchorman Handyman Services</h1>
-    <p class="tagline">Anchored in Quality</p>
+    <img class="hero-emblem" src="assets/logo-emblem.png" alt="" width="160" height="160">
+    <h1 class="wordmark"><span class="wm-anchor">Anchor</span><span class="wm-man">man</span></h1>
+    <p class="wm-sub"><span>Handyman Services</span></p>
+    <p class="tagline">&#9875;&nbsp; Anchored in Quality &nbsp;&#9875;</p>
     <p class="area">Tampa &middot; St.&nbsp;Petersburg &middot; Clearwater &amp; surrounding areas</p>
     <div class="cta-row">
-      <a class="btn btn-primary btn-big" href="sms:+18133840975?&body=Hi%20David!%20I%27m%20in%20the%20Tampa%20Bay%20area%20and%20need%20help%20with%3A%20">Text photos of your job for a ballpark quote</a>
-      <a class="btn btn-ghost" href="tel:+18133840975">Or call 813-384-0975</a>
+      <a class="btn btn-brass btn-big" href="sms:+18133840975?&body=Hi%20David!%20I%27m%20in%20the%20Tampa%20Bay%20area%20and%20need%20help%20with%3A%20">Text photos of your job for a ballpark quote</a>
+      <a class="btn btn-ghost-light" href="tel:+18133840975">Or call 813-384-0975</a>
     </div>
     <p class="cta-note">Snap a few photos of what needs fixing, text them over, and get a ballpark quote back — bigger jobs get an on-site visit.</p>
   </section>
 
   <!-- DRAFT services list — confirm David's actual list before launch -->
-  <section id="services" class="section">
+  <section id="services" class="section section-bone">
+    <p class="kicker">What we fix</p>
     <h2>Services</h2>
     <p class="section-lead">From small fixes to punch lists — if you're not sure, text a photo and ask.</p>
     <ul class="service-grid">
@@ -72,7 +85,8 @@
     See .devin/rules/media.md.
 
   <section id="work" class="section">
-    <h2>Recent work</h2>
+    <p class="kicker">Recent work</p>
+    <h2>Photos</h2>
     <p class="section-lead">Real jobs around Tampa Bay.</p>
     <ul class="work-grid">
       <li><img src="assets/work/example.jpg" alt="Before and after description" loading="lazy"></li>
@@ -81,16 +95,18 @@
   -->
 
   <section id="about" class="section">
+    <p class="kicker">The man on the other end</p>
     <h2>About</h2>
     <div class="about-copy">
       <p>Anchorman Handyman Services is David Evans — a solo handyman working out of the Tampa Bay area. No call centers, no runaround: you text the guy who does the work.</p>
-      <p>For smaller jobs, text photos and a short description and you'll get a ballpark quote back. For bigger jobs, David comes out, takes a look in person, and quotes it straight.</p>
+      <p class="about-pull">For smaller jobs, text photos and a short description and you'll get a ballpark quote back. For bigger jobs, David comes out, takes a look in person, and quotes it straight.</p>
     </div>
   </section>
 
   <section id="contact" class="section section-contact">
-    <h2>Get in touch</h2>
-    <p class="section-lead">Texting is fastest — send photos of the job and you'll get a ballpark back.</p>
+    <p class="kicker">Get in touch</p>
+    <h2>Texting is fastest</h2>
+    <p class="section-lead">Send photos of the job and you'll get a ballpark back.</p>
     <div class="contact-grid">
       <a class="contact-card" href="sms:+18133840975?&body=Hi%20David!%20I%27m%20in%20the%20Tampa%20Bay%20area%20and%20need%20help%20with%3A%20">
         <span class="contact-label">Text (preferred)</span>
@@ -102,13 +118,17 @@
       </a>
       <a class="contact-card" href="mailto:anchormanhandymanservices@gmail.com?subject=Job%20quote%20request">
         <span class="contact-label">Email</span>
-        <span class="contact-value contact-value-email">anchormanhandymanservices@gmail.com</span>
+        <span class="contact-value contact-value-email">anchormanhandymanservices<wbr>@gmail.com</span>
       </a>
     </div>
     <p class="service-area">Serving <strong>Tampa</strong>, <strong>St.&nbsp;Petersburg</strong>, <strong>Clearwater</strong> and surrounding areas.</p>
   </section>
 
 </main>
+
+<a class="sticky-cta" href="sms:+18133840975?&body=Hi%20David!%20I%27m%20in%20the%20Tampa%20Bay%20area%20and%20need%20help%20with%3A%20">
+  Text me &mdash; 813-384-0975
+</a>
 
 <footer class="site-footer">
   <p>Anchorman Handy Man Services LLC &middot; Tampa Bay, Florida</p>
