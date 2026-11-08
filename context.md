@@ -163,43 +163,45 @@ Two more quick things to ask him:
 ```
 Subject: First look at David's website
 
-Hey you two —
+Hey guys,
 
-First pass at David's site is up. Open it on your phone, that's where
-most people will see it anyway:
+Got a first pass at David's site up. Take a look on your phone, that's
+where most people will see it anyway:
 
 https://voidroot-io.github.io/anchorman/
 
-Runs free, no monthly cost. Few quick things I need from you guys:
+It runs free, no monthly cost. Few things I need from you guys:
 
-1. Services — the list on the site is my guess. What jobs does David
-   actually take? Just rattle them off (drywall, ceiling fans, TVs,
-   fences...?).
-2. Domain — I'd recommend I grab anchormanhandyman.com for you — it's
-   ~$11/year and I'll buy it and keep it managed so you never have to
-   think about it. Just say go. If he'd rather have something more
-   local, anchormantampabay.com and anchormanpasco.com are open too.
-3. "Licensed & insured" — can the site say that? Only if it's actually
-   true, Florida's picky about those words. No worries either way, I
-   just won't put it on there.
-4. Photos — pics of finished jobs make the site way better, even old
-   phone pics. A nice thank-you text from a past customer works too.
+1. The services list on the site is my guess. What jobs does David
+   actually take? Rattle them off, drywall, ceiling fans, TVs, fences,
+   whatever's real.
+2. Domain. I'd recommend I grab anchormanhandyman.com for him, it's
+   about $11 a year and I'll keep it renewed so nobody has to think
+   about it. Just say go. If he wants something more local instead,
+   anchormantampabay.com and anchormanpasco.com are open too.
+3. Can we say licensed and insured? Only if it's true. Florida's picky
+   about those words so if not, no big deal, I just leave it off.
+4. Photos. Job pics make the site way better, even old phone pics. A
+   nice thank-you text from a customer works too.
+5. The logo. Where'd it come from, did someone make it for him? If
+   whoever did it still has the original file, the big version, that
+   would help a lot. Could be a pdf, an .ai file, or just a bigger png.
+   The copy I have gets blurry blown up and mushy shrunk down, and right
+   now the site is working around that. No stress if it's gone, just
+   worth asking.
 
 FYI, stuff that doesn't work yet:
 
-- The Facebook button goes nowhere — I'll make the page once he's in.
-- Google Maps link works but there's no listing yet. Honestly the bigger
-  deal for getting calls — I'll set it up, just needs ~10 min of David's
-  time when Google verifies him.
-- Photo section is hidden until we get real pics.
-- The web address is the temporary free one until the domain's set up.
+- Facebook button goes nowhere for now. I'll make the page once he's in.
+- Google Maps link works but there's no real listing yet. That's
+  honestly the bigger deal for getting calls. I'll set it all up, just
+  need about 10 minutes of David's time when Google goes to verify him.
+- Photos section is hidden till we get real pics.
+- Web address is the temp free one until the domain's set up.
 
-No rush — whenever's easy.
+No rush on any of it.
 
-— Sean
-
-P.S. If whoever made the logo has the original file — the bigger
-version — send it my way, makes everything sharper.
+Sean
 ```
 
 ## Sensitive-data note
