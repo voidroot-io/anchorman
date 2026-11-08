@@ -19,7 +19,8 @@ site is a small brochure site, not a product.
   34653. His street address is his HOME — never publish it on the site;
   only city-level service area.
 - **Phone (preferred contact — TEXT):** 813-384-0975
-- **Email:** anchormanhandymanservices@gmail.com
+- **Email:** anchormanhandyman@gmail.com — corrected 2026-11-07 (the vcf's
+  anchormanhandymanservices@gmail.com was wrong/stale)
 - **Service area:** Tampa, St. Petersburg, Clearwater, and surrounding areas (FL)
   — CONFIRMED 2026-11-07: he's based in New Port Richey but works Tampa
   proper (Sean's mom is in Tampa and he does her jobs), so the listed
