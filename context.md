@@ -175,9 +175,10 @@ Runs free, no monthly cost. Few quick things I need from you guys:
 1. Services — the list on the site is my guess. What jobs does David
    actually take? Just rattle them off (drywall, ceiling fans, TVs,
    fences...?).
-2. Domain — anchormanhandyman.com is available, ~$11/year — that's my
-   vote. If he'd rather have something local, anchormantampabay.com and
-   anchormanpasco.com are open too. Or the free address is fine for now.
+2. Domain — I'd recommend I grab anchormanhandyman.com for you — it's
+   ~$11/year and I'll buy it and keep it managed so you never have to
+   think about it. Just say go. If he'd rather have something more
+   local, anchormantampabay.com and anchormanpasco.com are open too.
 3. "Licensed & insured" — can the site say that? Only if it's actually
    true, Florida's picky about those words. No worries either way, I
    just won't put it on there.
@@ -191,7 +192,7 @@ FYI, stuff that doesn't work yet:
   deal for getting calls — I'll set it up, just needs ~10 min of David's
   time when Google verifies him.
 - Photo section is hidden until we get real pics.
-- The web address is the temporary free one until we pick a domain.
+- The web address is the temporary free one until the domain's set up.
 
 No rush — whenever's easy.
 
