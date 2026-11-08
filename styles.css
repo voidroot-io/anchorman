@@ -354,6 +354,33 @@ section.section-bone > *, section.section-contact > * {
 .service-area { margin-top: 1.75rem; color: var(--mist); }
 .service-area strong { color: #fff; }
 
+.tel { white-space: nowrap; }
+
+.social-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--navy-line);
+  border-radius: 999px;
+  color: var(--mist);
+  text-decoration: none;
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.social-link:hover { border-color: var(--brass); color: #fff; }
+
 /* Sticky mobile CTA */
 
 .sticky-cta {
