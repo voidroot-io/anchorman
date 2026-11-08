@@ -12,8 +12,12 @@ site is a small brochure site, not a product.
 
 ## Business facts (from `assets/source-docs/David Evans.vcf`)
 
-- **Name:** Anchorman Handy Man Services LLC
-- **Owner:** David Evans
+- **Name:** Anchorman Handyman Services LLC — CONFIRMED via Sunbiz
+  (doc L2600514677, filed 10/05/2026, effective 10/01/2026, ACTIVE; the
+  earlier "Handy Man" two-word spelling was wrong)
+- **Owner:** David Evans — registered agent + MGR, NEW PORT RICHEY, FL
+  34653. His street address is his HOME — never publish it on the site;
+  only city-level service area.
 - **Phone (preferred contact — TEXT):** 813-384-0975
 - **Email:** anchormanhandymanservices@gmail.com
 - **Service area:** Tampa, St. Petersburg, Clearwater, and surrounding areas (FL)
@@ -103,8 +107,9 @@ Rejected: WordPress (on-call/security burden for 4 static pages), Carrd
   The logo implies drywall (screw + patch motif) but confirm.
 - Hours / service days.
 - Photos: ETA on recovered old-phone photos; any reviews/testimonials to quote?
-- Licensed business name on the site: "Anchorman Handy Man Services LLC" vs
-  the shorter "Anchorman Handyman" styling in the logo.
+- ~~Licensed business name on the site~~ — RESOLVED: legal name is
+  "Anchorman Handyman Services LLC" (Sunbiz); display name "Anchorman
+  Handyman Services" per the logo.
 - Logo source: who made it, and is there a vector/higher-res original
   (AI/EPS/SVG/PDF, or a bigger PNG)? The 792px raster is the only source; it
   looks AI/clip-art shaded. Current site works around it (emblem crop on
