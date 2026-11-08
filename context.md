@@ -21,6 +21,9 @@ site is a small brochure site, not a product.
 - **Phone (preferred contact — TEXT):** 813-384-0975
 - **Email:** anchormanhandymanservices@gmail.com
 - **Service area:** Tampa, St. Petersburg, Clearwater, and surrounding areas (FL)
+  — CONFIRMED 2026-11-07: he's based in New Port Richey but works Tampa
+  proper (Sean's mom is in Tampa and he does her jobs), so the listed
+  coverage stands.
 - **Logo:** `assets/logo.png` — anchor + drywall screw, navy/gray, tagline "Anchored in Quality"
 
 ## Questionnaire answers (docx/pdf in source-docs — same content both files)
@@ -172,16 +175,14 @@ Runs free, no monthly cost. Few quick things I need from you guys:
 1. Services — the list on the site is my guess. What jobs does David
    actually take? Just rattle them off (drywall, ceiling fans, TVs,
    fences...?).
-2. Domain — anchormanhandyman.com is available, ~$11/year. Want it, or
-   is the free web address fine for now?
+2. Domain — anchormanhandyman.com is available, ~$11/year — that's my
+   vote. If he'd rather have something local, anchormantampabay.com and
+   anchormanpasco.com are open too. Or the free address is fine for now.
 3. "Licensed & insured" — can the site say that? Only if it's actually
    true, Florida's picky about those words. No worries either way, I
    just won't put it on there.
 4. Photos — pics of finished jobs make the site way better, even old
    phone pics. A nice thank-you text from a past customer works too.
-5. Area — his LLC filing says New Port Richey. The site says
-   Tampa/St. Pete/Clearwater — does he really run that far south, or
-   should I list closer towns instead?
 
 FYI, stuff that doesn't work yet:
 
