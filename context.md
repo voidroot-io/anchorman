@@ -155,6 +155,51 @@ Two more quick things to ask him:
   TV mounting…?) The logo looks drywall-ish but I don't want to guess.
 ```
 
+## Draft email for mom + David (NOT SENT — Sean reviews/sends)
+
+```
+Subject: First look at David's website
+
+Hey you two —
+
+First pass at David's site is up. Open it on your phone, that's where
+most people will see it anyway:
+
+https://voidroot-io.github.io/anchorman/
+
+Runs free, no monthly cost. Few quick things I need from you guys:
+
+1. Services — the list on the site is my guess. What jobs does David
+   actually take? Just rattle them off (drywall, ceiling fans, TVs,
+   fences...?).
+2. Domain — anchormanhandyman.com is available, ~$11/year. Want it, or
+   is the free web address fine for now?
+3. "Licensed & insured" — can the site say that? Only if it's actually
+   true, Florida's picky about those words. No worries either way, I
+   just won't put it on there.
+4. Photos — pics of finished jobs make the site way better, even old
+   phone pics. A nice thank-you text from a past customer works too.
+5. Area — his LLC filing says New Port Richey. The site says
+   Tampa/St. Pete/Clearwater — does he really run that far south, or
+   should I list closer towns instead?
+
+FYI, stuff that doesn't work yet:
+
+- The Facebook button goes nowhere — I'll make the page once he's in.
+- Google Maps link works but there's no listing yet. Honestly the bigger
+  deal for getting calls — I'll set it up, just needs ~10 min of David's
+  time when Google verifies him.
+- Photo section is hidden until we get real pics.
+- The web address is the temporary free one until we pick a domain.
+
+No rush — whenever's easy.
+
+— Sean
+
+P.S. If whoever made the logo has the original file — the bigger
+version — send it my way, makes everything sharper.
+```
+
 ## Sensitive-data note
 
 `assets/source-docs/` contains David's contact card and a document with a
