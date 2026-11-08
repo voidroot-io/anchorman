@@ -349,7 +349,7 @@ section.section-bone > *, section.section-contact > * {
   overflow-wrap: anywhere;
 }
 
-.contact-value-email { font-size: 0.875rem; }
+.contact-value-email { font-size: clamp(0.8rem, 2.6vw, 0.875rem); }
 
 .service-area { margin-top: 1.75rem; color: var(--mist); }
 .service-area strong { color: #fff; }
@@ -400,6 +400,11 @@ section.section-bone > *, section.section-contact > * {
 .site-footer p { margin: 0.15rem 0; }
 
 /* Mobile sticky bar */
+
+@media (max-width: 480px) {
+  .wm-sub { letter-spacing: 0.22em; text-indent: 0.22em; font-size: 0.85rem; }
+  .wm-sub::before, .wm-sub::after { width: 1.6rem; }
+}
 
 @media (max-width: 639px) {
   body { padding-bottom: 3.4rem; }
